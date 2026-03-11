@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--IMPORTAR FONTE E CONECTAR NO SERTVIDOR-->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!--Importanto fonte Lato-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
     <title>Receitas de Odin (Mateus 514)</title>
 </head>
 <body>
-    <h1>Receitas de Odin:</h1>
+
+    <div class="header">
+        <h1>Odin Recipes:</h1>
+    </div>
+
+    <div class="subheader">
+        <h2>Recipes of the week</h2>
+    </div>
+    <div class="inferior"></div>
+
     <ul>
-        
-        <img src="./images/Brigadeiro.jpg" alt="Brazilian chocolate truffle or Brigadeiro" height="240" width="240">
-        <h3>Brigadeiro</h3>
-        <p><li><a href="./recipes/brigadeiro.html">Learn a recipe!</a></li></p>
+        <div class="brigadeiro"> 
+            <img class="imagem" src="./images/Brigadeiro.jpg" alt="Brazilian chocolate truffle or Brigadeiro" height="240" width="240">
+            <h3>Brigadeiro</h3>
+            <a class="link" href="./recipes/brigadeiro.html">Learn a recipe</a>
+        </div>
 
         <img src="./images/Mousse.jpg" alt="Image of candy Mousse" height="240" width="240">
         <h3>Mousse of powdered drink mix</h3>
