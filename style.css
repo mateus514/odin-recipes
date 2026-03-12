@@ -14,15 +14,17 @@ body{
 .header{
     color:  white;
     background-color: #283618ff;
-    padding: 20px;
-    font-size: 25px;
+    padding: 1.9%;
+    font-size: 3rem;
     font-family: Pacifico, sans-serif;
+    margin-bottom: 30%;
 }
 
 .subheader{
-    margin-top: 30%;
     text-align: center;
     font-size: 1.87rem;
+    text-decoration: underline;
+    text-decoration-color: #283618ff;
 }
 
 
