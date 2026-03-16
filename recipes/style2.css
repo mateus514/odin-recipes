@@ -2,7 +2,10 @@
     font-family: Lato, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+}
+main{
+    margin: 0% 3%;
 }
 .header{
     color:  white;
@@ -29,7 +32,7 @@ a:hover{
     text-decoration: none;
 }
 .titulo{
-    margin-left: 1%;
+   
     margin-bottom: 2%;
     font-weight: bolder;
     font-size: 3rem;
@@ -37,18 +40,21 @@ a:hover{
     text-decoration-color: #606c38ff;
 }
 img{
-    margin-left: 2%;
     border-radius: 1.5rem 5rem 3rem 0.5rem;
-}
-h2{
-    margin-left: 1.8%;
+    width: 40%;
+    height: auto;
 }
 h3{
-    margin: 2% 3%;
+    margin: 2% -1%;
     text-decoration: underline;
     text-decoration-color: #606c38ff;
     text-decoration-thickness: 4px;
 }
-p, li{
-    margin: 0% 3%;
+.footer{
+    background-color: #283618ff;
+    text-align: center;
+    font-style: italic;
+    padding: 1.9%;
+    margin-top: 10%;
+    color: white;
 }
